@@ -22,4 +22,4 @@ COPY . .
 EXPOSE 4000
 
 # Command to run the Jekyll server
-CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0"]
+CMD ["bundle", "exec", "jekyll", "serve", "--host", "0.0.0.0", "--config", "_config.yml,_config_dev.yml"]

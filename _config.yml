@@ -15,8 +15,8 @@ description: > # this means to ignore newlines until "baseurl:"
 title: "Indic aiDias"
 baseurl: "" 
 # url: "{% if jekyll.environment == 'production' %}https://indic-aidias.github.io/webpage{% endif %}"
-url: "{% if jekyll.environment == 'production' %}https://indic-aidias.github.io{% else %}{% endif %}"
-# url: "https://indic-aidias.github.io"  
+# url: "{% if jekyll.environment == 'production' %}https://indic-aidias.github.io{% else %}{% endif %}"
+url: "https://indic-aidias.github.io"  
 
 
 include:
